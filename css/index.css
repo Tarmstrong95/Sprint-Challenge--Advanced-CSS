@@ -178,10 +178,13 @@ nav {
 }
 nav .anchor {
   padding: 20px 0 10px 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 800px;
 }
 nav .anchor a {
   font-size: 1.6rem;
-  margin: 0 1.5rem;
   color: #454a59;
   font-weight: bold;
 }
