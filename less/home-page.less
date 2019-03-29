@@ -1,11 +1,10 @@
 // Home Content
 
 .home {
-
   .intro {
-
-    img{
+    img {
       border-radius: 5px;
+      width: 100%;
     }
 
     h2 {
@@ -13,9 +12,8 @@
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
-  
   }
 
   .space-images {
@@ -25,6 +23,23 @@
 
     img {
       .space-img();
+    }
+    .blast{
+      @media @phone {
+        width: 100%;
+      }
+    }
+
+    .sky{
+      @media @phone{
+        display: none;
+      }
+    }
+
+    .launch{
+      @media @phone{
+        display: none;
+      }
     }
   }
 
@@ -64,7 +79,10 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+      @media @phone {
+        width: 100%;
+      }
+
       img {
         width: 100%;
         height: auto;
@@ -72,4 +90,4 @@
       }
     }
   }
-}// home
+} // home
