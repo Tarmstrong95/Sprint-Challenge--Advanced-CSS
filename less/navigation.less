@@ -12,7 +12,6 @@ nav {
     h1{
         @media @phone {
             font-size: 4rem;
-            border: solid red;
         }
     }
   }
@@ -22,6 +21,13 @@ nav {
     a {
       font-size: 1.6rem;
       margin: 0 1.5rem;
+      color: @nav-font;
+      font-weight: bold;
+
+      &:hover{
+          text-decoration: underline;
+          cursor: pointer;
+      }
     }
   }
 }
